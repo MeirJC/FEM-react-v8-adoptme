@@ -1,3 +1,20 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 * {
   box-sizing: border-box;
   color: #333;
@@ -5,11 +22,17 @@
 
 body {
   background-color: #81a69b;
-  background-image: url(https://pets-images.dev-apis.com/pets/wallpaperB.jpg);
+  background-image: url(https://pets-images.dev-apis.com/pets/wallpaperC.jpg);
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  min-width: 320px;
 }
 
+#root #top-header {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .search-params {
   width: 1100px;
   margin: 0 auto;
@@ -79,7 +102,8 @@ body {
 .pet h1 {
   white-space: nowrap;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 2rem;
+  line-height: 1.1;
   color: #333;
   width: 95%;
   overflow: hidden;
@@ -97,14 +121,16 @@ header > a,
   overflow: hidden;
   text-indent: -9999px;
   margin: 20px 0;
+  line-height: 1.1;
 }
 
 .pet h2 {
   white-space: nowrap;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0;
   text-overflow: ellipsis;
+  line-height: 1.1;
 }
 
 header a {
@@ -133,8 +159,9 @@ header {
 .details h1 {
   text-align: center;
   color: #333;
-  font-size: 60px;
+  font-size: 3.5rem;
   margin: 5px 0px;
+  line-height: 1.1;
 }
 
 .details h2 {
