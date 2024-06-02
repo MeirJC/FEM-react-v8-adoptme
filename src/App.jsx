@@ -20,7 +20,6 @@ const App = () => {
             Adopt Me!
           </Link>
         </header>
-
         <Routes>
           <Route path="/details/:id" element={<Details />} />
           <Route path="/" element={<SearchParams />} />
@@ -31,12 +30,3 @@ const App = () => {
 };
 
 export default App;
-
-{
-  /* <div>
-<h1 className="top-header" id="top-header">
-  Adopt Me!
-</h1>
-<SearchParams />
-</div> */
-}
