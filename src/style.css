@@ -103,7 +103,7 @@ body {
   white-space: nowrap;
   font-weight: normal;
   font-size: 2rem;
-  line-height: 1.1;
+  line-height: 1.15;
   color: #333;
   width: 95%;
   overflow: hidden;
@@ -129,7 +129,7 @@ header > a,
   font-size: 1.25rem;
   margin: 0;
   text-overflow: ellipsis;
-  line-height: 1.1;
+  line-height: 1.15;
 }
 
 .pet-images {
@@ -177,7 +177,7 @@ header {
   color: #333;
   font-size: 3.5rem;
   margin: 5px 0px;
-  line-height: 1.1;
+  line-height: 1.15;
 }
 
 .details h2 {
